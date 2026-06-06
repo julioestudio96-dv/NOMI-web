@@ -229,7 +229,6 @@ export default function PayrollInfo() {
                         </p>
                     </div>
                 </div>
-
             </div>
         </AppLayout>
     );

@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+/* Registramos los colores pastel característicos de la marca Nomi */
+--color-pastel-lilac: #f3e8ff;
+--color-pastel-yellow: #fef08a;
+--color-pastel-blue: #e0f2fe;
+
+/* Ajustamos las fuentes del sistema */
+--font-display: "Inter", system-ui, sans-serif;
+}
+
+@layer utilities {
+/* Estilo base unificado para los contenedores principales de la aplicación */
+.nomi-card {
+    background-color: #ffffff;
+    border-radius: 1.5rem; /* rounded-3xl */
+    border: 1px solid rgba(241, 245, 249, 0.8);
+}
+}
